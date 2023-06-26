@@ -1,0 +1,32 @@
+body {
+  background-color: #8FBC8F;
+}
+
+#studentRegistrationForm {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.basicInformationLavel {
+  box-sizing: border-box;
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+}
+
+.basicInformationInput {
+  box-sizing: border-box;
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+}
+
+.Qualification {
+  width: 70%;
+}
+
+.resetSubmit {
+  float: right;
+  margin-right: 15px;
+}

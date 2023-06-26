@@ -1,0 +1,137 @@
+body {
+    background-color: white;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    background-color: #232f3e;
+    height: 64px;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.logo img:hover {
+    border: 1px solid black;
+}
+
+nav {
+    width: 60%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: start;
+    padding-top: 8px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav ul li a:hover {
+    color: #F09440;
+    border: 1px solid rgb(6, 212, 98);
+}
+
+.searchBar {
+    width: 25%;
+    padding-top: 20px;
+}
+
+.bodyImage img {
+    width: 100%;
+    margin-top: 10px;
+    height: 300px;
+}
+
+.bodyImage img:hover {
+    border: 1px solid black;
+}
+
+/*---------------------------------Galary-01--------------------------------------*/
+.galary-01 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.productCatagory {
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+}
+
+.productCatagory img {
+    height: 77%;
+    width: 100%;
+    transition: width 2s, height 4s;
+}
+
+.productCatagory img:hover {
+    width: 300px;
+    height: 200px;
+}
+
+/*---------------------------------Galary-02--------------------------------------*/
+.galary-02 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.productCatagory-02 {
+    margin-top: 50px;
+    width: 180px;
+    height: 250px;
+}
+
+.productCatagory-02 img {
+    height: 48%;
+    width: 100%;
+}
+
+.productCatagory-02:hover {
+    border: 1px solid black;
+}
+
+/*---------------------------------Footer--------------------------------------*/
+.footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #232f3e;
+    color: white;
+}
+
+.footer4division {
+    width: 250px;
+    height: 450px;
+}
+
+/*---------------------------------Footer-02--------------------------------------*/
+.footer_02 {
+    width: 100%;
+    height: 64px;
+    background-color: #3e4450;
+    color: white;
+    padding: 25px 0px 0px 20px;
+    font-size: 20px;
+}

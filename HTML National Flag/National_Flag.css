@@ -1,0 +1,18 @@
+#rectangle{
+width: 600px;
+height: 350px;
+background-color: green;
+position: relative;
+}
+.circle{
+position:absolute;
+margin:auto;
+top: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+width: 200px;
+height: 200px;
+background-color: red;
+border-radius: 50%;
+}

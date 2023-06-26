@@ -1,0 +1,126 @@
+ /*------------------------------Header Section------------------------*/
+ header {
+     display: flex;
+     background-color: #232f3e;
+     height: 64px;
+ }
+
+ .logo {
+     width: 15%;
+ }
+
+ .logo img {
+     height: 100%;
+     width: 100%;
+ }
+
+ .logo img:hover {
+     border: 1px solid black;
+ }
+
+ nav {
+     width: 60%;
+ }
+
+ nav ul {
+     display: flex;
+     justify-content: start;
+     padding-top: 8px;
+ }
+
+ nav ul li {
+     list-style: none;
+ }
+
+ nav ul li a {
+     color: white;
+     text-decoration: none;
+     margin-right: 15px;
+ }
+
+ nav ul li a:hover {
+     color: #F09440;
+     border: 1px solid rgb(6, 212, 98);
+ }
+
+ .searchBar {
+     width: 25%;
+     padding-top: 20px;
+ }
+
+ .bodyImage img {
+     width: 100%;
+     margin-top: 10px;
+     height: 300px;
+ }
+
+ .bodyImage img:hover {
+     border: 1px solid black;
+ }
+
+ /*------------------------------Available Book Section------------------------*/
+ .grid-container {
+     display: grid;
+     grid-template-areas: 'availableBooks availableBooks availableBooks availableBooks availableBooks';
+     grid-template-columns: auto auto auto auto auto;
+     background-color: white;
+     padding: 10px 10px 0px 10px;
+     column-gap: 30px;
+     row-gap: 30px;
+     width: 100%;
+ }
+
+ .grid-item {
+     background-color: none;
+     padding: 5px;
+     font-size: 15px;
+     text-align: left;
+     border-radius: 30px;
+ }
+
+ .grid-item:hover {
+     border: 1px solid black;
+ }
+
+ .bookListHead {
+     grid-area: availableBooks;
+ }
+
+ img {
+     width: 100%;
+     border-radius: 10px;
+ }
+
+ img:hover {
+     color: aqua;
+ }
+
+ figcaption {
+     padding: 0px 0px 0px 40px;
+ }
+
+ /*---------------------------------Footer--------------------------------------*/
+ .footer {
+     margin-top: 50px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     background-color: #232f3e;
+     color: white;
+ }
+
+ .footer4division {
+     width: 250px;
+     height: 450px;
+ }
+
+ /*---------------------------------Footer-02--------------------------------------*/
+ .footer_02 {
+     width: 100%;
+     height: 64px;
+     background-color: #3e4450;
+     color: white;
+     padding: 25px 0px 0px 20px;
+     font-size: 20px;
+ }
